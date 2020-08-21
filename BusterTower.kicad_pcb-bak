@@ -468,11 +468,6 @@
       (net 2 VCC))
     (pad 1 thru_hole rect (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Package_DIP.3dshapes/DIP-48_W15.24mm_Socket.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Package_DIP:DIP-20_W7.62mm_Socket (layer F.Cu) (tedit 5A02E8C5) (tstamp 5F3FD2E2)
