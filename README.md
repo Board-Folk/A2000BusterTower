@@ -5,5 +5,5 @@
 
  Currently Untested
 
- Thanks to Rob Taylor for the original PCB layout,
+ Thanks to PeepoUK for the original PCB layout,
  and to LIV2 for working out the PAL Logic and board layout.
