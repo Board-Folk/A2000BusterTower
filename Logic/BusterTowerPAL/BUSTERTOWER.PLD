@@ -1,0 +1,27 @@
+Name     BusterTower;
+PartNo   ;
+Date     ;
+Revision ;
+Designer ;
+Company  ;
+Assembly ;
+Location ;
+Device   g16v8a;
+
+/* Dedicated input pins */
+
+pin 1   = SLAVE1; /* Input */
+pin 2   = SLAVE2; /* Input */
+pin 3   = SLAVE3; /* Input */
+pin 4   = SLAVE4; /* Input */
+pin 5   = SLAVE5; /* Input */
+pin 6   = D2PI;   /* Input */
+pin 7   = OWN;    /* Input */
+
+
+/* Programmable output pins */
+
+pin 18  = D2PO;
+
+D2PO = SLAVE1 & SLAVE2 & SLAVE3 & SLAVE4 & SLAVE5 & D2PI & !OWN
+                                                  # D2PI & OWN;
