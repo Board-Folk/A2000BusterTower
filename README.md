@@ -7,3 +7,5 @@
 
  Thanks to PeepoUK for the original PCB layout,
  and to LIV2 for working out the PAL Logic and board layout.
+
+The code is written for the GAL16V8 as a replacement of the original PAL Chip
